@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Courgette', cursive;
+	color: #D81B60;
+	text-shadow: 4px 4px 45px black;
+}
+body{
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 8s ease-in-out infinite;
+}
+.mainContainer{
+	width: 1200px;
+	height:600px;
+	padding: 10px;
+	display: flex;
+	margin-left: 10%;
+}
+h1{
+	margin-left: 27%;
+	margin-top: 10px;
+	width: 700px;
+	height: 60px;
+	border: hidden 8px black;
+	border-style:double dotted;
+	border-radius: 40px;
+	font-size: 40px;
+	background: linear-gradient(60deg,#4DD0E1,#CFD8DC,#ECEFF1,#F48FB1);
+	box-shadow: 5px 5px 20px black;
+	overflow:hidden;
+	text-align: center;
+	color: #000000;
+  text-shadow: 20px 10px 0px #ff99cc,-15px -6px 0px #64a5b7;
+	padding: 5px;
+}
+img{
+	width: 270px;
+	height: 270px;
+	border: hidden 8px transparent;
+	background: linear-gradient(60deg,#CFD8DC,#ECEFF1,#F48FB1,#4DD0E1);
+	border-style: ridge;
+	border-radius: 200px;
+	margin-left: -120px;
+	overflow:hidden;
+}
+.left{
+	width: 630px;
+	height: 500px;
+	margin-top: 85px;
+	margin-left: 25px;
+	border: hidden 8px transparent;
+	border-style: ridge;
+	border-radius: 40px;
+	font-size: 20px;
+	background: linear-gradient(60deg,#4DD0E1,#CFD8DC,#ECEFF1,#F48FB1);
+	box-shadow: 5px 5px 20px black;
+	overflow:hidden;
+
+}
+.fa{
+	text-shadow: 4px 4px 10px black;
+	font-size: 120px;
+	margin-left: 180px;
+	margin-top: 60px;
+	text-align: center;
+	animation: change 8s ease-in-out infinite;
+	color: #E53935;
+}
+.left #name{
+	margin-top: 50px;
+	padding: 10px;
+}
+.left #branch{
+	padding: 10px;
+}
+.left #year{
+	padding: 10px;
+}
+.left #college{
+	padding: 10px;
+}
+.right{
+	width: 630px;
+	height: 500px;
+	margin-top: 85px;
+	margin-left: -90px;
+	border: hidden 8px transparent;
+	border-style: ridge;
+	border-radius: 40px;
+	font-size: 20px;
+	background: linear-gradient(60deg,#4DD0E1,#CFD8DC,#ECEFF1,#F48FB1);
+	box-shadow: 5px 5px 20px black;
+	overflow:hidden;
+	z-index: -1;
+
+}
+.right #aboutMe{
+	padding: 10px;
+	color: #283593;
+	font-size: 30px;
+}
+.right #details{
+	padding-left: 10px;
+}
+.right #skills{
+	padding: 10px;
+	color: #283593;
+	font-size: 30px;
+}
+@keyframes change{
+	0%{
+		background-position:0 50%;
+	}
+	50%{
+		background-position:100% 50%;
+	}
+	100%{
+		background-position:0 50%;
+	}
+}
